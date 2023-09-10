@@ -63,79 +63,8 @@ nav {
   cursor: pointer;
 }
 
-/* laptop screen */
-
-@media (max-width: 930px) {
-  .nav_list li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 400;
-  }
-}
-
-/* tablet screen */
-
-@media (max-width: 768px) {
-  .menu {
-    display: block;
-    padding: 0 2rem;
-  }
-
-  body {
-    background-size: 768px 600px;
-  }
-
-  .nav_list {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    right: 5%;
-    text-align: center;
-    background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    );
-  }
-  .open{
-    display: block;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-/* mobile screen */
-@media (max-width: 420px) {
-  body {
-    background-size: 480px 500px;
-  }
-
-  .nav_list {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 12%;
-    left: 5%;
-    right: 5%;
-    text-align: center;
-    background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    );
-
-   
-  }
-  
-  .open{
-    display: block;
-  }
 
 
-}
 /* HERO section */
 
 .hero { 
@@ -180,4 +109,207 @@ nav {
   margin-top: 2rem;
   margin-left: 2rem;
   border-radius: 0.6rem;
+}
+
+
+
+/* laptop screen */
+
+@media (max-width: 930px) {
+  .nav_list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .hero { 
+    text-align: center;
+    margin: 1rem 10rem 0rem;
+    padding: 1rem;
+   }
+   
+   .hero h1 {
+     font-size:2rem;
+     padding-top: 1rem;
+   }
+   .hero h3{
+     padding: 1rem;
+     margin: 1rem 3rem 0rem;
+     text-align: left;
+   }
+   
+   .quotes  {
+     font-size:1rem;
+     font-style: italic;
+     margin-top: .5rem;
+     padding: .5rem ;
+     background: linear-gradient(
+         rgba(21, 20, 20, 0.5),
+         rgba(4, 4, 4, 0.5)
+       );
+   }
+   
+   .para{
+     text-align: left;
+     padding: 0rem 1.5rem ;
+     width: auto;
+     margin: 0rem 5rem 1rem ;
+   }
+
+}
+
+/* tablet screen */
+
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    padding: 0 2rem;
+  }
+
+  body {
+    background-size: 768px 600px;
+  }
+
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    right: 5%;
+    text-align: center;
+    background: linear-gradient(
+      rgba(249, 162, 63, 0.9),
+      rgba(253, 169, 60, 0.9)
+    );
+  }
+  .open{
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero { 
+    text-align: center;
+    margin: 0rem 3rem 0rem;
+    padding: 1rem;
+   }
+   
+   .hero h1 {
+     font-size:2.5rem;
+     padding-top: 1rem;
+   }
+   .hero h3{
+     padding: 0.7rem;
+     margin: 0.7rem 1.5rem 0rem;
+     text-align: left;
+   }
+   
+   .quotes  {
+     font-size:0.8rem;
+     font-style: italic;
+     margin-top: .5rem;
+     padding: .5rem ;
+     background: linear-gradient(
+         rgba(21, 20, 20, 0.5),
+         rgba(4, 4, 4, 0.5)
+       );
+
+   }
+   
+   .para{
+     text-align: left;
+     padding: 0rem 1rem ;
+     width: auto;
+     margin: 0rem 2rem 1rem ;
+   }
+
+   .hero button{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(247, 97, 27, 0.826);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.6rem;
+  }
+}
+
+/* mobile screen */
+@media (max-width: 480px) {
+  body {
+    background-size: 480px 500px;
+  }
+
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    background: linear-gradient(
+      rgba(249, 162, 63, 0.9),
+      rgba(253, 169, 60, 0.9)
+    );
+
+   
+  }
+  
+  .open{
+    display: block;
+  }
+
+  .hero { 
+    text-align: center;
+    margin: 0rem 1rem 0rem;
+    padding: 0.7rem;
+   }
+   
+   .hero h1 {
+     font-size:1.7rem;
+     padding-top: 0.7rem;
+   }
+   .hero h3{
+     padding: 0.5rem 0rem;
+     margin: 0.5rem 0rem 0rem;
+     text-align: left;
+     font-size: 1rem;
+   }
+   
+   .quotes  {
+     font-size:0.7;
+     font-style: italic;
+     margin-top: .5rem;
+     padding: 0.5rem;
+     background: linear-gradient(
+         rgba(21, 20, 20, 0.5),
+         rgba(4, 4, 4, 0.5)
+       );
+
+   }
+   
+   .para{
+     text-align: left;
+     padding: 0rem ;
+     width: auto;
+     margin: 0.5rem 0rem ;
+   }
+
+   .hero button{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(247, 97, 27, 0.826);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 0.4rem;
+  }
+
 }
