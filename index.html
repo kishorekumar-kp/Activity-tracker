@@ -30,13 +30,26 @@
       </nav>
     </header>
     <main class="hero">
+      <p class="quotes">
+        “The capacity to learn is a gift;the ability to learn is a skill; <br />
+        the willingness to learn is a choice.” - Brian Herbert
+      </p>
       <h1>Feed Your Brain With Every Single Videos</h1>
-      <p>
-        “The capacity to learn is a gift;the ability to learn is a skill; <br> the
-        willingness to learn is a choice.” - Brian Herbert
+      <h3>Let's Get Join Our Journe!!!</h3>
+      <p class="para">
+        we offers begginer friendly coding lessons like HTML, CSS, JavaScript,React.js,
+        Tailwind.CSS,Node.js,MongoDB and much more through
+        on youtube with your native language தமிழ் 
       </p>
       <button>Vist our Youtube channel</button>
       <button>Contact US</button>
     </main>
   </body>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menulist = document.querySelector("nav ul");
+    menu.addEventListener("click", () => {
+      menulist.classList.toggle("open");
+    });
+  </script>
 </html>
