@@ -331,3 +331,39 @@ nav {
   }
 
 }
+
+
+/* footer componets */
+footer{
+  height: 30vh;
+  background: linear-gradient(
+         rgba(27, 17, 3, 0.8),
+         rgba(27, 18, 3, 0.8)
+       );     
+}
+.footer_div{
+  margin:0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 100;
+}
+
+.div_foot{
+  width: 350px;
+  padding: .5rem;
+  margin-top: 1.5rem;
+
+}
+.div_foot h4{
+  margin-bottom: 0.7rem;
+}
+
+.div_foot p{
+  padding: .3rem;
+}
+.div_1 i{
+  font-size: 1.2rem;
+  padding: .3rem;
+  color: #E2703A;
+}
