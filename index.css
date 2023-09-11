@@ -11,7 +11,7 @@ body {
   background: linear-gradient(rgba(34, 20, 20, 0.6), rgba(21, 16, 16, 0.6)),
     url("assets/magento-erp-integration.jpg");
   background-repeat: no-repeat;
-  background-size: 1700px 800px;
+  background-size: 1700px 700px;
 
   color: #fff;
   margin-top: 10px;
@@ -46,6 +46,7 @@ nav {
   color: #fff;
   font-size: 1.1rem;
   font-weight: 500;
+  padding: .5rem;
 }
 
 .nav_list li a:hover {
@@ -69,12 +70,15 @@ nav {
 
 .hero { 
  text-align: center;
- margin: 5rem 20rem 0rem;
+ margin: 3rem 20rem 0rem;
  padding: 1rem;
 }
 
 .hero h1 {
   font-size:3.8rem;
+  margin-top: 1rem
+  
+  ;
 }
 .hero h3{
   padding: 1rem 1.5rem;
@@ -111,7 +115,21 @@ nav {
   border-radius: 0.6rem;
 }
 
+.container{
+  width: auto;
+  
+  padding: .5rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
 
+}
+.tab{
+  height: 10rem;
+  margin: .5rem;
+  background-color: #E2703A;
+  opacity: 0.9;
+}
 
 /* laptop screen */
 
