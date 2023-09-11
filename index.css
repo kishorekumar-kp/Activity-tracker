@@ -115,9 +115,9 @@ nav {
   border-radius: 0.6rem;
 }
 
+/* main components */
 .container{
   width: auto;
-  
   padding: .5rem;
   margin-top: 3rem;
   display: flex;
@@ -333,16 +333,20 @@ nav {
 }
 
 
-/* footer componets */
+
+
+
+
+/* footer components */
 footer{
-  height: 30vh;
+  height: 35vh;
   background: linear-gradient(
          rgba(27, 17, 3, 0.8),
          rgba(27, 18, 3, 0.8)
        );     
 }
 .footer_div{
-  margin:0rem 10rem;
+  margin:0rem 15rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -366,4 +370,10 @@ footer{
   font-size: 1.2rem;
   padding: .3rem;
   color: #E2703A;
+}
+
+.copy{
+  text-align: center;
+margin-top: 1rem;
+color: #E2703A;
 }
