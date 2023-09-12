@@ -72,6 +72,7 @@ nav {
  text-align: center;
  margin: 3rem 20rem 0rem;
  padding: 1rem;
+
 }
 
 .hero h1 {
@@ -101,26 +102,32 @@ nav {
   text-align: left;
   padding: 0rem 1.5rem ;
   width: auto;
-  margin: 0rem 5rem 1rem ;
+  margin: 0rem 5rem 3rem ;
 }
 
-.hero button{
+.hero_link{
+
   padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 500;
   color: #fff;
   background-color: rgba(247, 97, 27, 0.826);
-  margin: 1.5rem 0rem;
-  /* margin-left: 2rem; */
   border-radius: 0.6rem;
-  cursor: pointer;
+  text-decoration: none;
+
 }
+.hero_link:hover{
+  transition: all 0.5s ease;
+  background: linear-gradient(rgba(8, 7, 7, 0.5), rgba(33, 31, 31, 0.5));
+  color: crimson;
+}
+
 
 /* main components */
 .container{
   width: auto;
   padding: .5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
 
@@ -131,7 +138,6 @@ nav {
   padding: .5rem;
   margin:1rem .5rem;
   text-align: left;
-  /* color: rgba(27, 17, 3, 0.8);69 */
   background: linear-gradient(
       rgba(21, 20, 20, 0.5),
       rgba(4, 4, 4, 0.5)
@@ -153,6 +159,22 @@ nav {
          rgba(27, 18, 3, 0.8)
        ); 
   opacity: 0.9;
+}
+
+.link{
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(247, 97, 27, 0.826);
+  text-decoration: none;
+  border-radius: 0.6rem;
+}
+.link:hover{
+  color:rgb(27, 1, 1) ;
+  transition: all 0.5s ease;
+  background: linear-gradient(rgba(8, 7, 7, 0.5), rgba(33, 31, 31, 0.5));
+
 }
 
 /* laptop screen */
